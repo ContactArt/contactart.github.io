@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecc28f00-0aea-43fd-8c99-24c18fc794a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/jekyll-gh-pages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/contactgrasp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/debug_data/contactdb/datapoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/explorer/debug_data/contactdb/datapoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/grasp_capture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/js/contactdb_explorer.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/explorer/js/contactdb_explorer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/media/contactgrasp_optim0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/media/contactgrasp_optim1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/media/markerless_grasp_capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails/cabinet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/alarm_clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/banana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/binoculars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/bowl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cell_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cube_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cube_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cube_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cylinder_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cylinder_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/cylinder_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/door_knob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/eyeglasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/flashlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/flute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/headphones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/light_bulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/mug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/pan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/piggy_bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/ps_controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/pyramid_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/pyramid_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/pyramid_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/rubber_duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/sphere_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/sphere_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/sphere_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/stanford_bunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/stapler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/toothbrush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/toothpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/torus_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/torus_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/torus_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/train.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/utah_teapot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/water_bottle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/wine_glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/explorer/thumbnails2/wristwatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/bulma-carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/bulma-slider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/bulma.css.map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/fontawesome.all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/images/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/images/steve.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/bulma-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/bulma-carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/bulma-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/bulma-slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/fontawesome.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/paper.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_10125_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_102186_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_102309_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_11279_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_45746_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_46452_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_7128_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_7236_2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/dataset/depth_9996_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_cabinet270.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_cabinet366.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_laptop1335.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_laptop1932.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_safe1126.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_safe66.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_trashcan1260.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/optim_trashcan665.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/optim/resize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/bmvc2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/bmvc3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/cabinet0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/laptop1500.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/laptop2400.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/rbodrawer.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/rbolaptop.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/rbomw.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/safe0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/safe2400.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/trashcan0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/pose/trashcan900.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/static/video/ttt.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/contactgrasp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/debug_data/contactdb/datapoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/explorer/debug_data/contactdb/datapoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/grasp_capture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/js/contactdb_explorer.js" beforeDir="false" afterPath="$PROJECT_DIR$/explorer/js/contactdb_explorer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/media/contactgrasp_optim0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/media/contactgrasp_optim1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/media/markerless_grasp_capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails/cabinet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/alarm_clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/banana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/binoculars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/bowl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cell_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cube_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cube_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cube_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cylinder_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cylinder_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/cylinder_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/door_knob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/eyeglasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/flashlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/flute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/hammer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/headphones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/knife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/light_bulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/mug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/pan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/piggy_bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/ps_controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/pyramid_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/pyramid_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/pyramid_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/rubber_duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/sphere_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/sphere_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/sphere_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/stanford_bunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/stapler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/toothbrush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/toothpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/torus_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/torus_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/torus_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/train.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/utah_teapot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/water_bottle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/wine_glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/explorer/thumbnails2/wristwatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bulma-carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bulma-slider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bulma.css.map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/fontawesome.all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/steve.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bulma-carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bulma-carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bulma-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bulma-slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/fontawesome.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/paper.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_10125_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_102186_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_102309_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_11279_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_45746_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_46452_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_7128_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_7236_2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/dataset/depth_9996_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_cabinet270.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_cabinet366.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_laptop1335.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_laptop1932.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_safe1126.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_safe66.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_trashcan1260.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/optim_trashcan665.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/optim/resize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/bmvc2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/bmvc3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/cabinet0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/laptop1500.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/laptop2400.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/rbodrawer.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/rbolaptop.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/rbomw.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/safe0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/safe2400.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/trashcan0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/pose/trashcan900.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/video/ttt.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KsLTgJ1Tr7IkDH4CYtuPjI2LQV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../acad-homepage.github.io/ContactArt/index.html" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.contactdb" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecc28f00-0aea-43fd-8c99-24c18fc794a3" name="Changes" comment="" />
+      <created>1674758353740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674758353740</updated>
+      <workItem from="1674758354868" duration="16470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
