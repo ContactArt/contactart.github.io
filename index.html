@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="ContactArt: Learning 3D Interaction Priors for Category-level Articulated Object and Hand Poses Estimation.">
+  <meta name="keywords" content="ContactArt">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ContactArt</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+<!--  <link rel="icon" href="./static/images/favicon.svg">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./explorer/js/three.min.js"></script>
+    <script src="./explorer/js/PLYLoader.js"></script>
+    <script src="./explorer/js/WebGL.js"></script>
+    <!--script src="js/TrackballControls.js"></script-->
+    <script src="./explorer/js/OrthographicTrackballControls.js"></script>
+    <script src="./explorer/js/navbar.js"></script>
+    <script src="./explorer/js/contactdb_explorer.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">ContactArt: Learning 3D Interaction Priors for
+Category-level Articulated Object and Hand Poses Estimation</h1>
+<!--          <h1 class="title is-3-desktop">In submission to ICCV23</h1>-->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Anonymous Author(s)
+          </div>
+
+          <div class="column has-text-centered">
+              <span class="link-block">
+                <a href="explorer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-window-restore"></i>
+                  </span>
+                  <span>Explorer</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video autoplay muted loop playsinline height="100%">
+        <source src="static/dataset_website.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Our method estimates articulated object and hand poses of real-world data, by learning hand-object interaction priors from our proposed ContactArt dataset.
+      </h2>
+      <div style="height: 30px;"></div>
+      <a href="explorer" >
+        <video autoplay muted loop playsinline height="100%" >
+          <source src="static/explorer.mp4" type="video/mp4">
+        </video>
+      </a>
+      <h2 class="subtitle has-text-centered">
+        We visualize more ContactArt data on our <a href="explorer">explorer</a>.
+      </h2>
+      </div>
+  </div>
+</section>
+
+<section class="section is-light" style="background-color: #f0f0f0">
+  <div class="container is-max-desktop" >
+
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose a new dataset and a novel approach to learn hand-object interaction priors for hand and
+            articulated object poses estimation. We first collect a dataset using visual teleoperation, where the human
+            operator can directly play within a physical simulator to manipulate the articulated objects. We record the
+            data and obtain the free and accurate annotations on object poses and contact information from the
+            simulator. Our system only requires an iPhone to record human hand motion, which can be easily scaled up and
+            largely lower the costs on data and annotation collection. With this data, we learn 3D interaction priors
+            including a discriminator (in a GAN) capturing the distribution of how object parts are arranged, and a
+            diffusion model which generates the contact regions on an articulated objects, guiding the hand pose
+            estimation. Such structural and contact priors can easily transfer to the real-world data with barely any
+            domain gap. By using our data and learned priors, our method significantly improves the performance on joint
+            hand and articulated object poses estimation over existing state-of-the-arts.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <video  loop playsinline controls width="100%">
+          <source src='static/supp_video.mp4' type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="is-centered has-text-centered">
+  <div style="height: 50px;"></div>
+  <div class="columns is-centered has-text-centered">
+    <h2 class="title is-3">Hand and Articulated object poses estimation on HOI4D dataset</h2>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-two-thirds">
+      <div class="content has-text-justified">
+        <p style="font-size: 18px; ">
+          We present a new hand object interaction dataset named ContactArt and learning pipeline for hand and articulated object poses estimation.
+          We train our method on the proposed ContactArt dataset and test our method on real-world HOI4D dataset.
+          Our method learns the 3D interaction priors from large-scale dataset.
+          The priors can easily transfer to the real and generalize to novel objects.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-body" style="margin-top: -70px;">
+    <div class="container">
+      <div id="results-carousell" class="carousel results-carousel">
+<!--        <div class="item item-steve">-->
+<!--          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="static/video/pose/cabinet0.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/pose/laptop1500.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/pose/trashcan0.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/pose/safe0.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/pose/laptop2400.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/pose/trashcan900.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div style="height: 50px;"></div>
+  <div class="columns is-centered has-text-centered">
+    <h2 class="title is-3">Articulated object poses estimation on RBO and BMVC dataset</h2>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-two-thirds">
+      <div class="content has-text-justified">
+        <p style="font-size: 18px; ">
+          Our method can also estimate accurate object pose on other real-world datasets, such as RBO and BMVC dataset.
+          Some examples are shown below.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-body" style="margin-top: -30px;">
+    <div class="container">
+      <div id="results-carousell" class="carousel results-carousel">
+        <div class="item item-steve" >
+          <video poster="" id="bmvc2" autoplay controls muted loop playsinline width="100%">
+            <source src="static/video/pose/bmvc2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="rbomw" autoplay controls muted loop playsinline width="100%">
+            <source src="static/video/pose/rbomw.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="rbodrawer" autoplay controls muted loop playsinline width="100%">
+            <source src="static/video/pose/rbodrawer.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="rbolaptop" autoplay controls muted loop playsinline width="100%">
+            <source src="static/video/pose/rbolaptop.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="bmvc3" autoplay controls muted loop playsinline width="100%">
+            <source src="static/video/pose/bmvc3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div style="height: 30px;"></div>
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Test time adaption using discriminator</h2>
+<!--        <div class="publication-video">-->
+<!--          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--        </div>-->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p style="font-size: 18px; ">
+              Our method learns the articulation prior with a discriminator during training.
+              At test time, we feed predicted articulation structures to the discriminator with fixed paramaters.
+              The we calculate the adversarial loss and back-propagate the gradients to update the estimator.
+              We iterate this process to improve the estimator and can predict better articulated object pose.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <video autoplay loop playsinline muted controls width="100%" style="margin-top: -50px;">
+          <source src="static/video/ttt.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+</div>
+
+<section class="hero is-small">
+  <div style="height: 80px;"></div>
+  <div class="columns is-centered has-text-centered">
+    <h2 class="title is-3">Optimize hand using contact diffusion model</h2>
+  </div>
+
+        <div class="columns is-centered has-text-centered">
+        <div class="column is-two-thirds">
+          <div class="content has-text-justified">
+            <p style="font-size: 18px; ">
+              Our method learns the contact prior with a contact diffusion model.
+              At test time, we utilize the contact diffusion model to predict the contact regions at objects.
+              Then we optimize hand pose by minimizing the distance between hand vertices and the contact points at the predicted contact regions.
+              In this way, we can achieve better performance on hand pose estimation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+  <div class="hero-body" style="margin-top: -40px;">
+    <div class="container">
+      <div id="results-carousell" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_cabinet270.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_laptop1335.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_safe1126.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_trashcan1260.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_cabinet366.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_laptop1932.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_safe66.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="static/video/optim/optim_trashcan665.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--<section class="section" id="BibTeX">-->
+<!--  <div class="container is-max-desktop content">-->
+<!--    <h2 class="title">BibTeX</h2>-->
+<!--    coming soon-->
+<!--&lt;!&ndash;    <pre><code>@article{park2021nerfies,&ndash;&gt;-->
+<!--&lt;!&ndash;  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},&ndash;&gt;-->
+<!--&lt;!&ndash;  title     = {Nerfies: Deformable Neural Radiance Fields},&ndash;&gt;-->
+<!--&lt;!&ndash;  journal   = {ICCV},&ndash;&gt;-->
+<!--&lt;!&ndash;  year      = {2021},&ndash;&gt;-->
+<!--&lt;!&ndash;}</code></pre>&ndash;&gt;-->
+<!--  </div>-->
+<!--</section>-->
+
+
+<footer class="footer">
+  <div style="height: 50px;"></div>
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            This website template is borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

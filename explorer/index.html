@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>ContactDB Explorer</title>
+		<title>ContactArt Explorer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta charset="utf-8">
@@ -24,8 +24,12 @@
             <h6 style="display: inline">Select <span class="text-primary">instances</span></h6>:
           <select id="sessionNamesMenu" onchange="sessionNameChanged(this.value)"></select>
         </div>
-        <div class="col" id="displayStatus"></div>
-        <div class="col-2" id="displayScale"></div>
+        <div class="col-2">
+            <h6 style="display: inline">Select <span class="text-primary">views</span></h6>:
+          <select id="instructionsMenu" onchange="instructionChanged(this.value)"></select>
+        </div>
+        <div class="col-4"  id="displayStatus"></div>
+<!--        <div class="col-4" id="displayScale"></div>-->
 
         <div class="col" >
           <select id="instructionsMenu" hidden onchange="instructionChanged(this.value)"></select>
@@ -37,29 +41,17 @@
           Contact Region (Contacts are more likely to occur at the brighter areas)
           <div style="width: 250px;"></div>
           RGBD Videos
-<!--        <div class="col-3">-->
-<!--          <figure class="figure">-->
-<!--              <figcaption class="figure-caption text-center">Contact Region (Contacts are more likely to occur at the brighter areas)</figcaption>-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--        <div class="col-9 text-center">-->
-<!--          <figure class="figure">-->
-<!--            <figcaption class="figure-caption text-center">RGBD Videos</figcaption>-->
-<!--          </figure>-->
-<!--        </div>-->
       </div>
 
       <div class="row justify-content-center">
         <div style="display: inline-flex; text-align: center;">
-          <canvas class="border w-50" style="height: 60%; "></canvas>
-
+            <canvas class="border w-50" style="height: 60%;"></canvas>
             <video poster="" id="fullbody" autoplay controls muted loop playsinline height="60%">
                 <source src="../ContactArt/static/video/dataset/depth_7128_0.mp4" type="video/mp4">
             </video>
-<!--            <video id="video" src="../ContactArt/static/video/dataset/depth_10125_0.mp4" autoplay controls muted loop playsinline height="40%"></video>-->
-
         </div>
       </div>
+
       <div class="row" style="margin-top: -400px;">
         <div class="col">
           <div class="row justify-content-around btn-group btn-group-toggle flex-wrap"
@@ -77,6 +69,15 @@
 <!--          footer_year.innerHTML = d.getFullYear();-->
 <!--        </script>-->
       </footer>
+    </div>
+
+
+
+    <div style="text-align: center; margin-top: 70px;">
+      <p>
+        This website template is borrowed from <a
+          href="https://contactdb.cc.gatech.edu/contactdb_explorer.html">ContactDB</a>.
+      </p>
     </div>
     <script src="js/contactdb_explorer.js"></script>
 	</body>
